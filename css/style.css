@@ -1,0 +1,23 @@
+body{
+    font-family: 'Oswald', sans-serif !important;
+    background-image: url();
+}
+
+.header{
+  text-align: center;
+  font-size: 80px;
+  margin: 30px;
+}
+
+.topic{
+}
+
+.topic p{
+  padding-left: 1%;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.card-title{
+  font-size: 30px !important;
+}
