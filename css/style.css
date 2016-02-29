@@ -5,16 +5,17 @@
 
 body{
     font-family: 'Oswald', sans-serif !important;
-    background: #1CD8D2; /* fallback for old browsers */
+    background-image: url(../images/34.jpg); /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .header{
   text-align: center;
-  font-size: 90px;
+  font-size: 70px;
   margin-bottom: 50px;
+  padding: 20px;
   background-color: #fff;
   color: #26a69a;
 }
