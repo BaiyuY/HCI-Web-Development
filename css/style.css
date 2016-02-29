@@ -8,29 +8,57 @@ body{
 
 .header{
   text-align: center;
-  font-size: 80px;
-  margin: 20px;
+  font-size: 90px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: #26a69a;
 }
 
+/*
 .topic{
+  display: inline-block;
+  color: #fff;
 }
+
 
 .topic p{
-  padding-left: 1%;
+  padding-left: 8%;
   font-size: 24px;
   margin: 0px;
   color: #EF4B34;
 }
+*/
 
 .card-title{
   font-size: 30px !important;
+  color: #26a69a !important;
 }
 
 .search{
-  margin: 0 300px;
+  margin: 0 400px;
+  padding-bottom: 30px;
+}
+
+.search a{
+  margin: 0 auto;
 }
 
 .card-image img{
   height: 200px;
   position: cover;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact li{
+  color: #FFF;
+  display: inline-block;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.sub-card li{
+  padding: 5px;
 }
