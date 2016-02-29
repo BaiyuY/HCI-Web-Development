@@ -1,3 +1,8 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#fff !important;
+}
+
+
 body{
     font-family: 'Oswald', sans-serif !important;
     background: #1CD8D2; /* fallback for old browsers */
@@ -9,7 +14,7 @@ body{
 .header{
   text-align: center;
   font-size: 90px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   background-color: #fff;
   color: #26a69a;
 }
@@ -43,6 +48,7 @@ body{
 
 .search input{
     width: 400px !important;
+    color: #fff;
 }
 
 .search a{
@@ -66,5 +72,8 @@ body{
 }
 
 .sub-card li{
-  padding: 5px;
+  margin-left: 30px;
+  padding: 3px;
+  font-size: 22px;
+  list-style-type: disc;
 }
