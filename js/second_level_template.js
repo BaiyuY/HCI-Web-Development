@@ -12,8 +12,14 @@
     })();
 
 
-document.back_to_hm(function(){
-    $(".logo").click(function(){
-    	window.location.href = "homepage.html";// redirect back to homepage
-    });
-});
+// document.back_to_hm(function(){// redirect back to homepage
+//     $(".logo").click(function(){
+//     	window.location.href = "homepage.html";
+//     });
+// });
+
+// $(result.html).backwards(function(){
+// 	$(".topic_title").click(function(){
+
+// 	});
+// });// go bck to previous page
