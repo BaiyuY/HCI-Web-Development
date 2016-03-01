@@ -1,3 +1,7 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#fff !important;
+}
+
 html,body{
 	height: 100%;
 }
@@ -13,10 +17,10 @@ html,body{
     width: 1150px;
 }
 #logo{
-  
+
 	width:100px;
 	height: 100px;
-	margin-left:-20px;
+	margin-left:-10px;
 }
 
 .logo_container {
@@ -27,12 +31,12 @@ html,body{
 }
 
 .page{
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 0.7%;
+	margin-right: 0.7%;
 }
 
 .topic_title{
-  
+
   margin-left: -19px;
 	margin-bottom:5%;
   margin-top: 3%;
@@ -52,17 +56,18 @@ footer{
 }
 #footer_text{
   margin-top: 10px;
-  
-}
-  
-.fa{
 
-  margin-bottom: -5px;
+}
+
+footer.fa{
+
+  margin-bottom: 5px;
+  margin-left:5px;
 }
 
 #footer_claim{
   font-size:15px !important;
-  font-family: times !important; 
+  font-family: times !important;
   color:black !important;
   margin-top: -10px;
 }
@@ -73,7 +78,7 @@ footer{
 /*===================================second_level_topic_boxes====================*/
 @charset "UTF-8";
 @font-face {
-  
+
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/134921/glyphicons.eot");
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/134921/glyphicons.eot?#iefix") format("eot"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/134921/glyphicons.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/134921/glyphicons.ttf") format("truetype"), url("../fonts/glyphicons.svg#glyphicons") format("svg");
   font-weight: normal;
@@ -245,10 +250,10 @@ a {
 }
 
 .search {
-  
+
     float: right;
-    margin-right: 10%;
-    width: 60%;
+    margin-right: 0;
+    width: 30%;
     height: 40px;
     margin-top: -80px;
     display: inline-block;
@@ -263,7 +268,7 @@ a {
   width: 50%;
   color: #fff;
   border: 0;
-  background: transparent; 
+  background: transparent;
 }
 
 .search input:focus {outline: 0;background:transparent;}
@@ -275,7 +280,7 @@ a {
     margin-left:40%;
     position: relative;
     float:right;
-    margin-top:-32px;
+    margin-top:-33px;
     cursor: pointer;
     height: 40px;
     width: 100px;
@@ -284,8 +289,8 @@ a {
     padding: 0px;
     background: rgb(38, 166, 154);
     border-radius: 0px;
-  
-}   
+
+}
 
 .search button:hover {background:#ADE7DB;color:#fff;}
 .search button:active {box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);}
@@ -293,5 +298,18 @@ a {
 .search button:focus {outline: 0;}
 
 
-
-
+footer p{
+	margin: 0px;
+	padding-top: 7px;
+}
+.header1{
+  margin-right:500px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding: 0;
+  margin-top:-80px;
+  color: #ffffff;
+  background:transparent;
+  font-family: 'Oswald', sans-serif !important;
+}
