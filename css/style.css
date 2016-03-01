@@ -1,10 +1,25 @@
+<<<<<<< HEAD
 body{
     font-family: 'Oswald', sans-serif !important;
     background-image: url();
+=======
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#fff !important;
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif !important;
+    background-image: url(../images/34.jpg); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+>>>>>>> gh-pages
 }
 
 .header{
   text-align: center;
+<<<<<<< HEAD
   font-size: 80px;
   margin: 30px;
 }
@@ -20,4 +35,70 @@ body{
 
 .card-title{
   font-size: 30px !important;
+=======
+  font-size: 70px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fff;
+  color: #26a69a;
+}
+
+
+
+/*
+.topic{
+  display: inline-block;
+  color: #fff;
+}
+
+
+.topic p{
+  padding-left: 8%;
+  font-size: 24px;
+  margin: 0px;
+  color: #EF4B34;
+}
+*/
+
+.card-title{
+  font-size: 30px !important;
+  color: #26a69a !important;
+}
+
+.search{
+  margin: 10px 350px;
+  padding-bottom: 30px;
+}
+
+.search input{
+    width: 400px !important;
+    color: #fff;
+}
+
+.search a{
+  margin: 0 auto;
+}
+
+.card-image img{
+  height: 200px;
+  position: cover;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact li{
+  color: #FFF;
+  display: inline-block;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.sub-card li{
+  margin-left: 30px;
+  padding: 3px;
+  font-size: 22px;
+  list-style-type: disc;
+>>>>>>> gh-pages
 }
