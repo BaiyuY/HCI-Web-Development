@@ -276,7 +276,7 @@ a {
   cursor: auto;
 }
 
-.search button {
+.search a {
     margin-left:40%;
     position: relative;
     float:right;
@@ -286,16 +286,15 @@ a {
     width: 100px;
     color: rgb(255, 255, 255);
     border: 0px;
-    padding: 0px;
     background: rgb(38, 166, 154);
     border-radius: 0px;
 
 }
 
-.search button:hover {background:#ADE7DB;color:#fff;}
-.search button:active {box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);}
+.search a:hover {background:#ADE7DB;color:#fff;}
+.search a:active {box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);}
 
-.search button:focus {outline: 0;}
+.search a:focus {outline: 0;}
 
 
 footer p{
